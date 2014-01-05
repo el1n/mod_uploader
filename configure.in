@@ -172,7 +172,7 @@ AC_DEFINE(ITM_MAX_IDENTIFIER_SIZE,      16,		[アップロードアイテムの�
 AC_DEFINE(ITM_MAX_VERSION_SIZE,         8,      [アップロードアイテムのバージョンの最大長])
 AC_DEFINE(ITM_MAX_DATE_SIZE,            32,		[アップロードアイテムの投稿日時の最大長])
 
-AC_DEFINE(ITM_DATE_FORMAT,              "%y/%m/%d(%a) %H:%M:%S", [アップロードアイテムの投稿日時のフォーマット])
+AC_DEFINE(ITM_DATE_FORMAT,              "%Y/%m/%d(%a) %H:%M:%S", [アップロードアイテムの投稿日時のフォーマット])
 AC_DEFINE(ITM_MAX_IP_ADDRESS_SIZE,      40,		[アップロードアイテムの投稿者の IP アドレスの最大長])
 AC_DEFINE(ITM_MAX_FILE_NAME_SIZE,       64,		[アップロードファイルの名前の最大長])
 AC_DEFINE(ITM_MAX_FILE_MIME_SIZE,       64,		[アップロードファイルの MIME タイプの最大長])
@@ -184,7 +184,7 @@ AC_DEFINE(ITM_MAX_COMMENT_SIZE,         256,	[アップロードアイテムの�
 
 AC_DEFINE(PST_MAX_ITEM_COUNT,           10,     [投稿する項目の最大数])
 AC_DEFINE(PST_FLOW_CONTROL_BUFFER_SIZE, 128,    [連続投稿を制御するのに使うバッファのサイズ])
-AC_DEFINE(PST_INTERVAL_SEC,             60,     [再投稿可能になるまでの時間(秒)])
+AC_DEFINE(PST_INTERVAL_SEC,             1,     [再投稿可能になるまでの時間(秒)])
 AC_DEFINE(PST_PROGRESS_HOLD_SEC,        300,    [リクエストの進捗情報を保持する時間(秒)])
 
 AC_DEFINE(LCK_TIMEOUT_SEC,              300,    [ロックをタイムアウトにするまでの時間(秒)])
@@ -199,7 +199,7 @@ AC_DEFINE(VIW_THUMBNAIL_SIZE_LIMIT,     10*1024*1024, [サムネイル画像の�
 
 AC_DEFINE(ZIP_BUFFER_SIZE,              1024*1024, [ZIP 圧縮のバッファサイズ (Byte)])
 
-AC_DEFINE(SYS_CHARACTER_CODE,           "euc-jp", [データの文字コード])
+AC_DEFINE(SYS_CHARACTER_CODE,           "utf-8", [データの文字コード])
 AC_DEFINE(SYS_TIMEZONE_OFFSET_SUFFIX,   "+09:00", [世界標準時からのオフセット表記])
 AC_DEFINE(SYS_TIMEZONE_OFFSET,          9*60*60, [世界標準時からのオフセット表記])
 AC_DEFINE(SYS_MMAP_BLOCK_SIZE,          32*1024*1024, [MMAP する単位 (Byte)])
@@ -397,5 +397,5 @@ Configuration:
 
 # Local Variables:
 # mode: autoconf
-# coding: euc-japan-unix
+# coding: utf-8-unix
 # End:

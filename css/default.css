@@ -1,4 +1,4 @@
-@charset "EUC-JP";
+@charset "UTF-8";
 
 body { 
   font-family         : 'Lucida Sans Unicode', Verdana, 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ3', sans-serif;
@@ -7,7 +7,7 @@ body {
   margin              : 1em   2em   1em   1em;
   line-height         : 145%;
   background-color    : #ffffff;
-  color               : #001100;
+  color               : #ff7788;
 }
 
 a
@@ -17,18 +17,23 @@ a
 
 a:link
 {
-  color               : #003300;
+  color               : #8899cc;
 }
 
 a:visited
 {
-  color               : #003300;
+  color               : #8899cc;
 } 
 
 a:hover
 {
-  color               : #336633;
-  text-decoration     : underline;
+  color               : #bbccff;
+//  text-decoration     : underline;
+} 
+
+a:active
+{
+  color               : #bbccff;
 } 
 
 img
@@ -45,7 +50,7 @@ iframe
 
 div.thumbnail img
 {
-  border              : 1px solid #333333;;  
+  border              : 1px solid #ffccd4;
   margin              : 0.5em 0.5em 0.5em 0.5em;
 }
 
@@ -53,11 +58,11 @@ h1
 {
   font-family         : 'ヒラギノ角ゴ Pro W6', 'ヒラギノ角ゴ6', Verdana, sans-serif;
   font-size           : medium;
-  color               : #ffffff;
+  color               : #ff7788;
 
-  background-color    : #666f66;
-  border-bottom       : 1px solid #333f33;
-  border-left         : 1px solid #666f66;
+  background-color    : #fff4f8;
+  border-bottom       : 1px solid #ffccd4;
+  border-left         : 1px solid #ffccd4;
 
   padding             : 0.3em 0.1em 0.1em 0.2em;
 }
@@ -141,7 +146,7 @@ table.file th.remove
 
 table.file td
 {
-  border-bottom       : 1px solid #cccccc;
+  border-bottom       : 1px solid #ffccd4;
 }
 
 table.file td.index
@@ -200,9 +205,9 @@ em
 
 div.description
 {
-  color               : #000000;
+  color               : #ff7788;
 
-  border-bottom       : 1px dashed #000033;
+  border-bottom       : 1px dashed #ffccd4;
   margin              : 0.5em 0em   1em   1em;
 }
 
@@ -235,7 +240,7 @@ div.navigator
 
 div.input_download_pass
 {
-  color               : #000000;
+  color               : #ff7788;
 
   text-align          : center;
   margin              : 2em   0em   0em   0em;
@@ -243,7 +248,7 @@ div.input_download_pass
 
 label
 {
-  color               : #111111;
+  color               : #ff7788;
 }
 
 img.warning
@@ -262,7 +267,7 @@ div.warning
 
 hr.footer
 {
-  color               : #333333;
+  color               : #ff7788;
 
   height              : 1px;
 }

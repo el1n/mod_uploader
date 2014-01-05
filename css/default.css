@@ -1,7 +1,7 @@
 @charset "EUC-JP";
 
 body { 
-  font-family         : 'Lucida Sans Unicode', Verdana, '�ҥ饮�γѥ� Pro W3', '�ҥ饮�γѥ�3', sans-serif;
+  font-family         : 'Lucida Sans Unicode', Verdana, 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ3', sans-serif;
   font-size           : 10pt;
 
   margin              : 1em   2em   1em   1em;
@@ -51,7 +51,7 @@ div.thumbnail img
 
 h1
 {
-  font-family         : '�ҥ饮�γѥ� Pro W6', '�ҥ饮�γѥ�6', Verdana, sans-serif;
+  font-family         : 'ヒラギノ角ゴ Pro W6', 'ヒラギノ角ゴ6', Verdana, sans-serif;
   font-size           : medium;
   color               : #ffffff;
 
@@ -82,7 +82,7 @@ table.file
 
 th
 {
-  font-family         : '�ҥ饮�γѥ� Pro W6', '�ҥ饮�γѥ�6', Verdana, sans-serif;
+  font-family         : 'ヒラギノ角ゴ Pro W6', 'ヒラギノ角ゴ6', Verdana, sans-serif;
 
   text-align          : left;
   vertical-align      : bottom;

@@ -91,9 +91,9 @@ void PostDataChecker::validate_uitem(apr_pool_t *pool, apr_uint64_t file_size,
     }
 
     if (strlen(*comment) == 0) {
-#ifndef EMPTY_COMMENT
-        THROW(MESSAGE_POST_COMMENT_EMPTY);
-#endif
+//#ifndef EMPTY_COMMENT
+//        THROW(MESSAGE_POST_COMMENT_EMPTY);
+//#endif
     } else if (strlen(*comment) > (ITM_MAX_COMMENT_SIZE-1)) {
         THROW(MESSAGE_POST_COMMENT_TOO_LONG);
     }

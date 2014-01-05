@@ -57,9 +57,9 @@
    {
        var disabled = false;
 
-       if ("@EMPTY_COMMENT@" != "on") {
-           disabled |= (document.getElementById('upload_comment').value.length == 0);
-       }
+//       if ("@EMPTY_COMMENT@" != "on") {
+//           disabled |= (document.getElementById('upload_comment').value.length == 0);
+//       }
 
        disabled |= (document.getElementById('upload_file').value.length == 0);
        if (is_check_ext) {
@@ -141,9 +141,9 @@
    <tr>
     <th class="index"><a href="${BASE_URL}index/">NO</a></th>
     <th class="name"><a href="${BASE_URL}sort_file_name/">NAME</a></th>
+    <th class="size"><a href="${BASE_URL}sort_file_size/">SIZE</a></th>
     <th class="hash">HASH</th>
     <th class="comment">DESC</th>
-    <th class="size"><a href="${BASE_URL}sort_file_size/">SIZE</a></th>
     <th class="mime"><a href="${BASE_URL}sort_file_mime/">MIME</a></th>
     <th class="date"><a href="${BASE_URL}index/">DATE</a></th>
     <th class="download_count"><a href="${BASE_URL}sort_download_count/">C</a></th>
@@ -153,9 +153,9 @@
    <tr>
     <td class="index">${item.index}</td>
     <td class="name"><a href="${BASE_URL}download/${item.id}/attach/${item.file_name}">${item.file_name}</a></td>
+    <td class="size">${item.file_size}</td>
     <td class="hash">${item.file_digest}</td>
     <td class="comment">${item.comment}</td>
-    <td class="size">${item.file_size}</td>
     <td class="mime">${item.file_mime}</td>
     <td class="date">${item.date}</td>
     <td class="download_count">${item.download_count}</td>
@@ -208,11 +208,11 @@
   <hr class="footer" />
 
   <div class="footer">
-   Copyright(C) 2006 acapulco.dyndns.org
+   Copyright(C) 2008 acapulco.dyndns.org
   </div>
 
   <div class="package_info">
-   <a href="http://acapulco.dyndns.org/mod_uploader/">@PACKAGE_NAME@/@PACKAGE_VERSION@ is Free!</a>
+   <a href="http://sourceforge.jp/projects/mod-uploader/">@PACKAGE_NAME@/@PACKAGE_VERSION@ is Free!</a>
   </div>
 
   <div class="validator">

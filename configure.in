@@ -32,7 +32,7 @@ AC_PREREQ(2.59)
 ###############################################################################
 # パッケージ
 AC_COPYRIGHT([Copyright (C) 2008 Tetsuya Kimata. All Rights Reserved.])
-AC_INIT([mod_uploader],[3.0.9],[kimata@acapulco.dyndns.org])
+AC_INIT([mod_uploader],[3.1.1],[kimata@acapulco.dyndns.org])
 AC_REVISION($Revision: 1.149 $)
 
 AC_CONFIG_AUX_DIR(build)
@@ -172,7 +172,7 @@ AC_DEFINE(ITM_MAX_IDENTIFIER_SIZE,      16,		[アップロードアイテムの�
 AC_DEFINE(ITM_MAX_VERSION_SIZE,         8,      [アップロードアイテムのバージョンの最大長])
 AC_DEFINE(ITM_MAX_DATE_SIZE,            32,		[アップロードアイテムの投稿日時の最大長])
 
-AC_DEFINE(ITM_DATE_FORMAT,              "%Y/%m/%d(%a) %H:%M:%S", [アップロードアイテムの投稿日時のフォーマット])
+AC_DEFINE(ITM_DATE_FORMAT,              "%Y/%m/%d %H:%M:%S", [アップロードアイテムの投稿日時のフォーマット])
 AC_DEFINE(ITM_MAX_IP_ADDRESS_SIZE,      40,		[アップロードアイテムの投稿者の IP アドレスの最大長])
 AC_DEFINE(ITM_MAX_FILE_NAME_SIZE,       128,		[アップロードファイルの名前の最大長])
 AC_DEFINE(ITM_MAX_FILE_MIME_SIZE,       64,		[アップロードファイルの MIME タイプの最大長])

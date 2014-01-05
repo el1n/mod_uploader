@@ -296,9 +296,9 @@
 <!--@ foreach (item in ITEM_LIST) { @-->
    <tr>
     <td class="index">${item.index}</td>
-    <td class="name"><a href="${BASE_URL}/admin/download/${item.id}.${item.file_ext}">${item.file_name}</a></td>
+    <td class="name"><a href="${BASE_URL}admin/download/${item.id}.${item.file_ext}">${item.file_name}</a></td>
     <td class="download">
-     <a href="${BASE_URL}/admin/download/${item.id}.${item.file_ext}/attach">DL</a>
+     <a href="${BASE_URL}admin/download/${item.id}.${item.file_ext}/attach">DL</a>
     </td>
     <td class="comment">${item.comment}</td>
     <td onclick="alert('MD5: ${item.file_digest}')" class="size">${item.file_size}</td>
@@ -306,7 +306,7 @@
     <td class="download_count">${item.download_count}</td>
     <td class="ip_address"><a href="http://whois.ansi.co.jp/?key=${item.ip_address}">${item.ip_address}</a></td>
     <td class="remove">
-     <form method="post" enctype="multipart/form-data" action="${BASE_URL}/admin/remove/">
+     <form method="post" enctype="multipart/form-data" action="${BASE_URL}admin/remove/">
       <input type="hidden" name="remove_pass" value="" />
       <input type="hidden" name="id" value="${item.id}" />
       <input type="submit" name="submit" value="Remove" />

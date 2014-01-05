@@ -12,8 +12,20 @@
   <link rel="shortcut icon" href="${BASE_URL}up_img/favicon.ico" />
   <script type="text/javascript" src="${BASE_URL}up_js/progress.js" charset="ISO-8859-1"></script>
   <script type="text/javascript">
-   <!--
    var uploaderURL = "${BASE_URL}";
+
+   //////////////////////////////////////////////////////////////////////
+   // ファイルの拡張子による制限
+   // 行う場合は次の行の「false」を「true」に書き換えます
+   var is_check_ext = false;
+
+   var ext_list = new Array();
+   // 許可する拡張子
+   // (追加する場合は，「ext_list[3] = "bmp";」などのような記述を追加します)
+   ext_list[0] = "jpg";
+   ext_list[1] = "gif";
+   ext_list[2] = "png";
+   //////////////////////////////////////////////////////////////////////
 
    function initUploadForm()
    {
@@ -21,8 +33,41 @@
        // remove the following two lines.
        document.getElementById('upload').onsubmit = startUpload;
        document.getElementById('upload').target = 'dummy';
+
+       checkInput();
+
+       document.getElementById('upload_file').onchange = checkInput;
+       document.getElementById('upload_comment').onkeyup = checkInput;
+       document.getElementById('upload_submit').onmouseover = checkInput;
    }
-   -->
+   function isValidExt(fileName)
+   {
+       var match = false;
+
+       for (i = 0; i < ext_list.length; i++) {
+           // note: テンプレート中で ＄(実際は半角) を使う場合は，「\」でエスケープすること
+           var pattern = new RegExp("\\." + ext_list[i] + "\$", "i");
+           if (fileName.search(pattern) != -1) {
+               match = true;
+           }
+       }
+       return match;
+   }
+   function checkInput()
+   {
+       var disabled = false;
+
+       if ("@EMPTY_COMMENT@" != "on") {
+           disabled |= (document.getElementById('upload_comment').value.length == 0);
+       }
+
+       disabled |= (document.getElementById('upload_file').value.length == 0);
+       if (is_check_ext) {
+           disabled |= !isValidExt(document.getElementById('upload_file').value);
+       }
+
+       document.getElementById('upload_submit').disabled = disabled;
+   }
   </script>
  </head>
 
@@ -94,14 +139,14 @@
 
   <table class="file">
    <tr>
-    <th class="index">NO</th>
-    <th class="name">NAME</th>
+    <th class="index"><a href="${BASE_URL}index/">NO</a></th>
+    <th class="name"><a href="${BASE_URL}sort_file_name/">NAME</a></th>
     <th class="download"></th>
     <th class="comment">COMMENT</th>
-    <th class="size">SIZE</th>
-    <th class="mime">MIME</th>
-    <th class="date">DATE</th>
-    <th class="download_count">COUNT</th>
+    <th class="size"><a href="${BASE_URL}sort_file_size/">SIZE</a></th>
+    <th class="mime"><a href="${BASE_URL}sort_file_mime/">MIME</a></th>
+    <th class="date"><a href="${BASE_URL}index/">DATE</a></th>
+    <th class="download_count"><a href="${BASE_URL}sort_download_count/">COUNT</a></th>
     <th class="remove"></th>
    </tr>
 <!--@ foreach (item in ITEM_LIST) { @-->

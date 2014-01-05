@@ -306,7 +306,7 @@
     <td class="download_count">${item.download_count}</td>
     <td class="ip_address"><a href="http://whois.ansi.co.jp/?key=${item.ip_address}">${item.ip_address}</a></td>
     <td class="remove">
-     <form method="post" enctype="multipart/form-data" action="${BASE_URL}admin/remove/">
+     <form method="post" enctype="multipart/form-data" action="${BASE_URL}admin/remove/index/${CURRENT_PAGE}">
       <input type="hidden" name="remove_pass" value="" />
       <input type="hidden" name="id" value="${item.id}" />
       <input type="submit" name="submit" value="Remove" />

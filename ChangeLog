@@ -123,83 +123,83 @@
 
 2007-04-02  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* include/Macro.h: ¥Ç¥Ğ¥Ã¥°¥â¡¼¥É°Ê³°¤Ç¤ÏÎã³°¤òÁ÷½Ğ¤·¤¿¾ì½ê¤Î½ĞÎÏ¤ò
-	»ß¤á¤¿¡¥
+	* include/Macro.h: ãƒ‡ãƒãƒƒã‚°ãƒ¢ãƒ¼ãƒ‰ä»¥å¤–ã§ã¯ä¾‹å¤–ã‚’é€å‡ºã—ãŸå ´æ‰€ã®å‡ºåŠ›ã‚’
+	æ­¢ã‚ãŸï¼
 
 2007-03-25  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: mod_mime_magick ¤ËÂĞ±ş¡¥
+	* src/uploader_handler.cpp: mod_mime_magick ã«å¯¾å¿œï¼
 
-	* include/ApacheResponse.h: ¥À¥¦¥ó¥í¡¼¥É»ş¤Î¥Ç¥Õ¥©¥ë¥È¤Î
-	Content-Type ¤ò application/octet-stream ¤Ë¤·¤¿¡¥
+	* include/ApacheResponse.h: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æ™‚ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®
+	Content-Type ã‚’ application/octet-stream ã«ã—ãŸï¼
 
 2007-03-24  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: ¥À¥¦¥ó¥í¡¼¥É»ş¤Î Content-Type ¤Î·èÄê¤ò
-	mod_mime ¤ËÇ¤¤»¤ë¤è¤¦¤Ë¤·¤¿¡¥
+	* src/uploader_handler.cpp: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æ™‚ã® Content-Type ã®æ±ºå®šã‚’
+	mod_mime ã«ä»»ã›ã‚‹ã‚ˆã†ã«ã—ãŸï¼
 
-	* src/PostDataChecker.cpp: MIME type ¤Î¸¡ºº¤òÄÉ²Ã¡¥
+	* src/PostDataChecker.cpp: MIME type ã®æ¤œæŸ»ã‚’è¿½åŠ ï¼
 
 2007-03-10  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/UploaderConfig.cpp: ÀßÄê¹àÌÜ¤Î¥Á¥§¥Ã¥¯¤ò¾¯¤·¶¯²½¡¥
+	* src/UploaderConfig.cpp: è¨­å®šé …ç›®ã®ãƒã‚§ãƒƒã‚¯ã‚’å°‘ã—å¼·åŒ–ï¼
 
 2007-02-15  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: ¥³¥Ş¥ó¥ÉÈ½Äê¤Î¥Ğ¥°¤ò½¤Àµ¡¥
+	* src/uploader_handler.cpp: ã‚³ãƒãƒ³ãƒ‰åˆ¤å®šã®ãƒã‚°ã‚’ä¿®æ­£ï¼
 
 2007-02-04  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: ´ÉÍı´ÉÍı²èÌÌ¤Ç¤Î Last-Modified ½ĞÎÏ¤ò»ß
-	¤á¤¿¡¥
+	* src/uploader_handler.cpp: ç®¡ç†ç®¡ç†ç”»é¢ã§ã® Last-Modified å‡ºåŠ›ã‚’æ­¢
+	ã‚ãŸï¼
 
 2007-01-13  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: ¥À¥¦¥ó¥í¡¼¥É¥Õ¥¡¥¤¥ëÌ¾¤Î¥«¥¹¥¿¥Ş¥¤¥º¤Ë
-	ÂĞ±ş¡¥
+	* src/uploader_handler.cpp: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«åã®ã‚«ã‚¹ã‚¿ãƒã‚¤ã‚ºã«
+	å¯¾å¿œï¼
 
-	* src/TemplateExecutor.cpp: FASTEST ¥Ş¥¯¥í¤¬ÄêµÁ¤µ¤ì¤Æ¤¤¤Ê¤¤¾ì¹ç¤Ë
-	¤Ï¡¤¼Â¹Ô»ş¥Á¥§¥Ã¥¯¤ò¹Ô¤¦¤è¤¦¤ËÊÑ¹¹¡¥
+	* src/TemplateExecutor.cpp: FASTEST ãƒã‚¯ãƒ­ãŒå®šç¾©ã•ã‚Œã¦ã„ãªã„å ´åˆã«
+	ã¯ï¼Œå®Ÿè¡Œæ™‚ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã†ã‚ˆã†ã«å¤‰æ›´ï¼
 
 2007-01-08  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* include/WriteLocker.h: ¥Í¥¹¥È¤·¤¿¥í¥Ã¥¯¤ò¹Ô¤¦ºİ¤Î¥Ğ¥°¤ò½¤Àµ¡¥
+	* include/WriteLocker.h: ãƒã‚¹ãƒˆã—ãŸãƒ­ãƒƒã‚¯ã‚’è¡Œã†éš›ã®ãƒã‚°ã‚’ä¿®æ­£ï¼
 
-	* src/GNUmakefile.tst.in: mod_uploader ËÜÂÎ¤Î¥Æ¥¹¥È¤òÄÉ²Ã¡¥
+	* src/GNUmakefile.tst.in: mod_uploader æœ¬ä½“ã®ãƒ†ã‚¹ãƒˆã‚’è¿½åŠ ï¼
 
 2007-01-07  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/UploadItemManager.cpp: Æ±»ş¤Ë¥Õ¥¡¥¤¥ë¤¬¥¢¥Ã¥×¥í¡¼¥É¤µ¤ì¤¿¾ì¹ç
-	ID ¤¬½ÅÊ£¤¹¤ë¥Ğ¥°¤ò½¤Àµ¡¥
+	* src/UploadItemManager.cpp: åŒæ™‚ã«ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã•ã‚ŒãŸå ´åˆ
+	ID ãŒé‡è¤‡ã™ã‚‹ãƒã‚°ã‚’ä¿®æ­£ï¼
 
 2006-12-31  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* include/ReadWriteLocker.h: APR_HAS_THREADS ¤¬ 0 ¤Î´Ä¶­¤ËÂĞ±ş¡¥
+	* include/ReadWriteLocker.h: APR_HAS_THREADS ãŒ 0 ã®ç’°å¢ƒã«å¯¾å¿œï¼
 
 2006-12-25  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/Auxiliary.cpp: ¿ô»ú¤ò´Ş¤ó¤À³ÈÄ¥»Ò¤Î°·¤¤¤ò½¤Àµ¡¥
+	* src/Auxiliary.cpp: æ•°å­—ã‚’å«ã‚“ã æ‹¡å¼µå­ã®æ‰±ã„ã‚’ä¿®æ­£ï¼
 
 2006-12-24  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/UploadItemRss.cpp: RSS ¤Î¥Õ¥©¡¼¥Ş¥Ã¥È°ãÈ¿¤ò½¤Àµ¡¥
+	* src/UploadItemRss.cpp: RSS ã®ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆé•åã‚’ä¿®æ­£ï¼
 
 2006-12-17  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/ApacheResponseWriter.cpp: 4GB °Ê¾å¤Î¥Õ¥¡¥¤¥ë¤ËÂĞ±ş¡¥
+	* src/ApacheResponseWriter.cpp: 4GB ä»¥ä¸Šã®ãƒ•ã‚¡ã‚¤ãƒ«ã«å¯¾å¿œï¼
 
 2006-12-04  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/RFC2822Parser.cpp: ·ÈÂÓ¤«¤é¤Î¥¢¥Ã¥×¥í¡¼¥É¤ËÂĞ±ş¡¥
+	* src/RFC2822Parser.cpp: æºå¸¯ã‹ã‚‰ã®ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã«å¯¾å¿œï¼
 
 2006-11-29  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/uploader_handler.cpp: ¥µ¥à¥Í¥¤¥ë¤ÎÉ½¼¨¤ËÂĞ±ş¡¥
+	* src/uploader_handler.cpp: ã‚µãƒ ãƒã‚¤ãƒ«ã®è¡¨ç¤ºã«å¯¾å¿œï¼
 
 2006-11-28  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/mod_uploader.cpp: ´ÉÍı¥Ú¡¼¥¸¤Î¼ÂÁõ¤¬´°Î»¡¥
+	* src/mod_uploader.cpp: ç®¡ç†ãƒšãƒ¼ã‚¸ã®å®Ÿè£…ãŒå®Œäº†ï¼
 
 2006-11-26  Tetsuya Kimata  <kimata@acapulco.dyndns.org>
 
-	* src/mod_uploader.cpp: ´ğËÜµ¡Ç½¤Î¼ÂÁõ¤¬´°Î»¡¥
+	* src/mod_uploader.cpp: åŸºæœ¬æ©Ÿèƒ½ã®å®Ÿè£…ãŒå®Œäº†ï¼

@@ -228,7 +228,7 @@ size_t  inbytesleft;
 char    *outbuf;
 size_t  outbytesleft;
 
-inbuf        = "§¢§§§¶§®§™";
+inbuf        = "„ÅÇ„ÅÑ„ÅÜ„Åà„Åä";
 inbytesleft  = strlen(inbuf);
 outbuf       = buffer;
 outbytesleft = sizeof(buffer);
@@ -243,7 +243,7 @@ printf("%s -> %s\n", inbuf, outbuf);
 ]])], [ICONV_2ND_ARG_TYPE='char *'], [ICONV_2ND_ARG_TYPE='const char *'])
 AC_MSG_RESULT($ICONV_2ND_ARG_TYPE)
 AC_SUBST(ICONV_2ND_ARG_TYPE)
-AC_DEFINE_UNQUOTED(ICONV_2ND_ARG_TYPE, $ICONV_2ND_ARG_TYPE, [iconv §Œ¬Ë∆Û∞˙øÙ§Œ∑ø])
+AC_DEFINE_UNQUOTED(ICONV_2ND_ARG_TYPE, $ICONV_2ND_ARG_TYPE, [iconv „ÅÆÁ¨¨‰∫åÂºïÊï∞„ÅÆÂûã])
 ])
 
 AC_DEFUN([AC_CHECK_GCC_ATOMIC_BUILTINS], [
@@ -267,7 +267,7 @@ if test "$ATOMIC_BUILTINS" = on; then
     ]])], [GCC_ATOMIC_BUILTINS=on], [GCC_ATOMIC_BUILTINS=off])
     if test "$GCC_ATOMIC_BUILTINS" = on; then
         AC_MSG_RESULT(yes)
-        AC_DEFINE(GCC_ATOMIC_BUILTINS, "on", [GCC Atomic Builts §¨ª»§®§Î§´§…§¶§´°•])
+        AC_DEFINE(GCC_ATOMIC_BUILTINS, "on", [GCC Atomic Builts „Åå‰Ωø„Åà„Çã„Åã„Å©„ÅÜ„ÅãÔºé])
     else
         AC_MSG_RESULT(no)
     fi

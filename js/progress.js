@@ -84,7 +84,7 @@ function updateProgress()
 {
     var progress;
 
-    progress = getProgress(uploaderURL + '/progress_data/' + uploadID);
+    progress = getProgress(uploaderURL + 'progress_data/' + uploadID);
 
     if (progress == null) {
         if (++failCount > 10) {
@@ -102,7 +102,7 @@ function updateProgress()
         clearTimer();
         setProgresssInfo('Upload Succeeded!');
         
-        setInterval('document.location = "' + uploaderURL + '/info/upload_id/' + uploadID + '"',
+        setInterval('document.location = "' + uploaderURL + 'info/upload_id/' + uploadID + '"',
                     1000);
 
         return;

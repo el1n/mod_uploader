@@ -38,7 +38,7 @@
 
   <div class="description">
    You can upload files of up to $MAX_FILE_SIZE.
-   (DL pass: password for Download¡¤RM pass: password for Removal)
+   (DL pass: password for Downloadï¼ŒRM pass: password for Removal)
   </div>
 
   <form method="post" enctype="multipart/form-data" action="${BASE_URL}/upload/" id="upload">

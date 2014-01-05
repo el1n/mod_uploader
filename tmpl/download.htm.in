@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
 
  <head>
-  <!-- �� -->
+  <!-- 京 -->
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=EUC-JP" />
   <meta http-equiv="content-style-type" content="text/css" />
   <title>mod_uploader</title>
@@ -23,15 +23,15 @@
   <h1>Download</h1>
 
   <div class="description">
-   �ʲ��Υե�����ˤϥѥ���ɤ����ꤵ��Ƥ��ޤ���DL pass �˻��ꤵ�줿�ѥ���ɤ����Ϥ��Ƥ���������
+   以下のファイルにはパスワードが設定されています．DL pass に指定されたパスワードを入力してください，
   </div>
 
   <form method="post" enctype="multipart/form-data" id="download">
    <div class="input_download_pass">
     <label for="download_pass" accesskey="D">DL pass:</label>
     <input type="password" name="download_pass" value="" size="8" maxlength="8" id="download_pass" />
-    <input type="hidden" name="code_pat" value="��" />
-    <input type="submit" name="submit" value="�����������" class="submit" />
+    <input type="hidden" name="code_pat" value="京" />
+    <input type="submit" name="submit" value="ダウンロード" class="submit" />
    </div>
   </form>
 
@@ -57,7 +57,7 @@
   </table>
 
   <div class="navigator">
-   <a href="${BASE_URL}">���</a>
+   <a href="${BASE_URL}">戻る</a>
   </div>
 
   <hr class="footer" />

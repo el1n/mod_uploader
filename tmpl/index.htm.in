@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
 
  <head>
-  <!-- �� -->
+  <!-- 京 -->
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=EUC-JP" />
   <meta http-equiv="content-style-type" content="text/css" />
   <title>mod_uploader</title>
@@ -16,13 +16,13 @@
    var uploaderURL = "${BASE_URL}";
 
    //////////////////////////////////////////////////////////////////////
-   // �ե�����γ�ĥ�Ҥˤ������
-   // �Ԥ����ϼ��ιԤΡ�false�פ��true�פ˽񤭴����ޤ�
+   // ファイルの拡張子による制限
+   // 行う場合は次の行の「false」を「true」に書き換えます
    var is_check_ext = false;
 
    var ext_list = new Array();
-   // ���Ĥ����ĥ��
-   // (�ɲä�����ϡ���ext_list[3] = "bmp";�פʤɤΤ褦�ʵ��Ҥ��ɲä��ޤ�)
+   // 許可する拡張子
+   // (追加する場合は，「ext_list[3] = "bmp";」などのような記述を追加します)
    ext_list[0] = "jpg";
    ext_list[1] = "gif";
    ext_list[2] = "png";
@@ -30,8 +30,8 @@
 
    function initUploadForm()
    {
-       // Javascript ����Ѥ������åץ����ɤο�Ľɽ����ǽ��Ȥ�ʤ����ϡ�
-       // �ʲ�����Ԥ������Ƥ���������
+       // Javascript を使用したアップロードの進捗表示機能を使わない場合は，
+       // 以下の二行を削除してください．
        document.getElementById('upload').onsubmit = startUpload;
        document.getElementById('upload').target = 'dummy';
 
@@ -46,7 +46,7 @@
        var match = false;
 
        for (i = 0; i < ext_list.length; i++) {
-           // note: �ƥ�ץ졼����� ��(�ºݤ�Ⱦ��) ��Ȥ����ϡ���\�פǥ��������פ��뤳��
+           // note: テンプレート中で ＄(実際は半角) を使う場合は，「\」でエスケープすること
            var pattern = new RegExp("\\." + ext_list[i] + "\$", "i");
            if (fileName.search(pattern) != -1) {
                match = true;
@@ -83,8 +83,8 @@
   <h1>File Upload</h1>
 
   <div class="description">
-   $MAX_FILE_SIZE �ޤǤΥ������Υե����뤬���åץ����ɲ�ǽ�Ǥ���
-   (DL pass: ����������ɥѥ���ɡ�RM pass: ����ѥ����)
+   $MAX_FILE_SIZE までのサイズのファイルがアップロード可能です．
+   (DL pass: ダウンロードパスワード，RM pass: 削除パスワード)
   </div>
 
   <form method="post" enctype="multipart/form-data" action="${BASE_URL}/upload/" id="upload">
@@ -102,8 +102,8 @@
        <input type="password" name="download_pass" value="" size="8" maxlength="8" id="download_pass" />
        <label for="remove_pass" accesskey="R">RM pass:</label>
        <input type="password" name="remove_pass" value="" size="8" maxlength="8" id="remove_pass" />
-       <input type="hidden" name="code_pat" value="��" />
-       <input type="submit" name="submit" value="����" class="submit" id="upload_submit" />
+       <input type="hidden" name="code_pat" value="京" />
+       <input type="submit" name="submit" value="送信" class="submit" id="upload_submit" />
       </td>
      </tr>
     </table>
@@ -120,9 +120,9 @@
   <h1>File List</h1>
 
   <div class="description">
-    ���ߡ�$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER ��) �Υե����뤬���åץ����ɤ���Ƥ��ޤ���
-    [<a href="${BASE_URL}/thumbnail/"><em>����ͥ���</em></a>]
-    [<a href="javascript:location.reload(true)"><em>�������</em></a>]
+    現在，$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER 個) のファイルがアップロードされています．
+    [<a href="${BASE_URL}/thumbnail/"><em>サムネイル</em></a>]
+    [<a href="javascript:location.reload(true)"><em>リロード</em></a>]
   </div>
 
   <div class="page_info">
@@ -192,8 +192,8 @@
   <h1>File Delete</h1>
 
   <div class="description">
-   ����������ե�����α�ü�ˤ����D�פ򥯥�å��������ȡ�
-   RM pass �����ꤷ���ѥ���ɤ����Ϥ��Ƥ���������(�� Javascript)
+   削除したいファイルの右端にある「D」をクリックしたあと，
+   RM pass に設定したパスワードを入力してください．(要 Javascript)
   </div>
 
   <form method="post" enctype="multipart/form-data" action="${BASE_URL}/remove/" id="remove">
@@ -204,7 +204,7 @@
       <td><input type="text" name="name" value="" size="30" id="rm_file" /></td>
       <td><label for="rm_remove_pass" accesskey="P">pass:</label></td>
       <td><input type="password" name="remove_pass" value="" size="8" maxlength="8" id="rm_remove_pass" /></td>
-      <td><input type="submit" name="submit" value="���" class="submit" /></td>
+      <td><input type="submit" name="submit" value="削除" class="submit" /></td>
       <td><input type="hidden" name="id" value="" /></td>
      </tr>
     </table>

@@ -4,14 +4,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
 
  <head>
-  <!-- ╡■ -->
+  <!-- ф║м -->
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=EUC-JP" />
   <meta http-equiv="content-style-type" content="text/css" />
   <title>mod_uploader</title>
   <style type="text/css">
    <!--
    body {
-     font-family         : 'Lucida Sans Unicode', Verdana, 'е╥ещеое╬│╤е┤ Pro W3', 'е╥ещеое╬│╤е┤3', sans-serif;
+     font-family         : 'Lucida Sans Unicode', Verdana, 'уГТуГйуВоуГОшзТуВ┤ Pro W3', 'уГТуГйуВоуГОшзТуВ┤3', sans-serif;
      font-size           : 10pt;
 
      margin              : 1em   2em   1em   1em;
@@ -61,7 +61,7 @@
 
    h1
    {
-     font-family         : 'е╥ещеое╬│╤е┤ Pro W6', 'е╥ещеое╬│╤е┤6', Verdana, sans-serif;
+     font-family         : 'уГТуГйуВоуГОшзТуВ┤ Pro W6', 'уГТуГйуВоуГОшзТуВ┤6', Verdana, sans-serif;
      font-size           : medium;
      color               : #ffffff;
 
@@ -92,7 +92,7 @@
 
    th
    {
-     font-family         : 'е╥ещеое╬│╤е┤ Pro W6', 'е╥ещеое╬│╤е┤6', Verdana, sans-serif;
+     font-family         : 'уГТуГйуВоуГОшзТуВ┤ Pro W6', 'уГТуГйуВоуГОшзТуВ┤6', Verdana, sans-serif;
 
      text-align          : left;
      vertical-align      : bottom;
@@ -264,8 +264,8 @@
   <h1>File List</h1>
 
   <div class="description">
-    ╕╜║▀бд$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER ╕─) д╬е╒ебедеыдмеве├е╫еэб╝е╔д╡дьд╞ддд▐д╣бе
-    [<a href="javascript:location.reload(true)"><em>еъеэб╝е╔</em></a>]
+    чП╛хЬия╝М$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER хАЛ) уБоуГХуВбуВдуГлуБМуВвуГГуГЧуГнуГ╝уГЙуБХуВМуБжуБДуБ╛уБЩя╝О
+    [<a href="javascript:location.reload(true)"><em>уГкуГнуГ╝уГЙ</em></a>]
   </div>
 
   <div class="page_info">
@@ -310,7 +310,7 @@
      <form method="post" enctype="multipart/form-data" action="${BASE_URL}/admin/remove/index/${CURRENT_PAGE}">
       <input type="hidden" name="remove_pass" value="" />
       <input type="hidden" name="id" value="${item.id}" />
-      <input type="submit" name="submit" value="║я╜№" />
+      <input type="submit" name="submit" value="хЙКщЩд" />
      </form>
     </td>
    </tr>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
 
  <head>
-  <!-- ╡■ -->
+  <!-- ф║м -->
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=EUC-JP" />
   <meta http-equiv="content-style-type" content="text/css" />
   <title>mod_uploader</title>
@@ -23,8 +23,8 @@
   <h1>Image List</h1>
 
   <div class="description">
-   ╕╜║▀бд$TOTAL_THUMBNAIL_NUMBER ╕─д╬е╡ере═едеы▓ш┴№дмдвдъд▐д╣бе
-   [<a href="javascript:location.reload(true)"><em>еъеэб╝е╔</em></a>]
+   чП╛хЬия╝М$TOTAL_THUMBNAIL_NUMBER хАЛуБоуВ╡уГауГНуВдуГлчФ╗хГПуБМуБВуВКуБ╛уБЩя╝О
+   [<a href="javascript:location.reload(true)"><em>уГкуГнуГ╝уГЙ</em></a>]
   </div>
 
   <div class="page_info">
@@ -64,7 +64,7 @@
   </div>
 
   <div class="navigator">
-   <a href="${BASE_URL}">╠сды</a>
+   <a href="${BASE_URL}">цИ╗уВЛ</a>
   </div>
 
   <hr class="footer" />

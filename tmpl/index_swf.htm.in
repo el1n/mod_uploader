@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
 
  <head>
-  <!-- ╡■ -->
+  <!-- ф║м -->
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=EUC-JP" />
   <meta http-equiv="content-style-type" content="text/css" />
   <title>mod_uploader</title>
@@ -24,8 +24,8 @@
   <h1>File Upload</h1>
 
   <div class="description">
-   $MAX_FILE_SIZE д▐д╟д╬е╡еде║д╬е╒ебедеыдмеве├е╫еэб╝е╔▓─╟╜д╟д╣бе
-   (DL pass: е└ежеєеэб╝е╔е╤е╣еяб╝е╔бдRM pass: ║я╜№е╤е╣еяб╝е╔)
+   $MAX_FILE_SIZE уБ╛уБзуБоуВ╡уВдуВ║уБоуГХуВбуВдуГлуБМуВвуГГуГЧуГнуГ╝уГЙхПпшГ╜уБзуБЩя╝О
+   (DL pass: уГАуВжуГ│уГнуГ╝уГЙуГСуВ╣уГпуГ╝уГЙя╝МRM pass: хЙКщЩдуГСуВ╣уГпуГ╝уГЙ)
   </div>
 
   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
@@ -50,9 +50,9 @@
   <h1>File List</h1>
 
   <div class="description">
-    ╕╜║▀бд$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER ╕─) д╬е╒ебедеыдмеве├е╫еэб╝е╔д╡дьд╞ддд▐д╣бе
-    [<a href="${BASE_URL}/thumbnail/"><em>е╡ере═едеы</em></a>]
-    [<a href="javascript:location.reload(true)"><em>еъеэб╝е╔</em></a>]
+    чП╛хЬия╝М$TOTAL_FILE_SIZE ($TOTAL_FILE_NUMBER хАЛ) уБоуГХуВбуВдуГлуБМуВвуГГуГЧуГнуГ╝уГЙуБХуВМуБжуБДуБ╛уБЩя╝О
+    [<a href="${BASE_URL}/thumbnail/"><em>уВ╡уГауГНуВдуГл</em></a>]
+    [<a href="javascript:location.reload(true)"><em>уГкуГнуГ╝уГЙ</em></a>]
   </div>
 
   <div class="page_info">
@@ -122,8 +122,8 @@
   <h1>File Delete</h1>
 
   <div class="description">
-   ║я╜№д╖д┐дде╒ебедеыд╬▒ж├╝д╦двдыб╓Dб╫дЄепеъе├епд╖д┐двд╚бд
-   RM pass д╦└▀─ъд╖д┐е╤е╣еяб╝е╔дЄ╞■╬╧д╖д╞дпд└д╡ддбе(═╫ Javascript)
+   хЙКщЩдуБЧуБЯуБДуГХуВбуВдуГлуБохП│члпуБлуБВуВЛуАМDуАНуВТуВпуГкуГГуВпуБЧуБЯуБВуБия╝М
+   RM pass уБлшинхоЪуБЧуБЯуГСуВ╣уГпуГ╝уГЙуВТхЕехКЫуБЧуБжуБПуБауБХуБДя╝О(шжБ Javascript)
   </div>
 
   <form method="post" enctype="multipart/form-data" action="${BASE_URL}/remove/" id="remove">
@@ -134,7 +134,7 @@
       <td><input type="text" name="name" value="" size="30" id="rm_file" /></td>
       <td><label for="rm_remove_pass" accesskey="P">pass:</label></td>
       <td><input type="password" name="remove_pass" value="" size="8" maxlength="8" id="rm_remove_pass" /></td>
-      <td><input type="submit" name="submit" value="║я╜№" class="submit" /></td>
+      <td><input type="submit" name="submit" value="хЙКщЩд" class="submit" /></td>
       <td><input type="hidden" name="id" value="" /></td>
      </tr>
     </table>

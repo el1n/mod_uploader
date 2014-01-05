@@ -99,6 +99,16 @@ td
   vertical-align      : bottom;
 }
 
+td.hash
+{
+  font-size           : 6pt;
+}
+
+td.comment, td.size, td.mime, td.date, td.download_count, td.remove
+{
+  font-size           : 8pt;
+}
+
 table.file th.url
 {
   width               : 2%;

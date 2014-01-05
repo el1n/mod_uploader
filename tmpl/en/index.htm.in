@@ -141,25 +141,21 @@
    <tr>
     <th class="index"><a href="${BASE_URL}index/">NO</a></th>
     <th class="name"><a href="${BASE_URL}sort_file_name/">NAME</a></th>
-    <th class="download"></th>
-    <th class="comment">COMMENT</th>
+    <th class="comment">DESC</th>
+    <th class="hash">HASH</th>
     <th class="size"><a href="${BASE_URL}sort_file_size/">SIZE</a></th>
     <th class="mime"><a href="${BASE_URL}sort_file_mime/">MIME</a></th>
     <th class="date"><a href="${BASE_URL}index/">DATE</a></th>
-    <th class="download_count"><a href="${BASE_URL}sort_download_count/">COUNT</a></th>
+    <th class="download_count"><a href="${BASE_URL}sort_download_count/">C</a></th>
     <th class="remove"></th>
    </tr>
 <!--@ foreach (item in ITEM_LIST) { @-->
    <tr>
     <td class="index">${item.index}</td>
-    <td class="name"><a href="${BASE_URL}download/${item.id}.${item.file_ext}">${item.file_name}</a></td>
-    <td class="download">
-     <a href="${BASE_URL}download/${item.id}.${item.file_ext}/attach">
-      <img src="${BASE_URL}up_img/icon_download.png" alt="DL" height="14" width="14" />
-     </a>
-    </td>
+    <td class="name"><a href="${BASE_URL}download/${item.id}/attach/${item.file_name}">${item.file_name}</a></td>
     <td class="comment">${item.comment}</td>
-    <td onclick="alert('MD5: ${item.file_digest}')" class="size">${item.file_size}</td>
+    <td class="hash">${item.file_digest}</td>
+    <td class="size">${item.file_size}</td>
     <td class="mime">${item.file_mime}</td>
     <td class="date">${item.date}</td>
     <td class="download_count">${item.download_count}</td>

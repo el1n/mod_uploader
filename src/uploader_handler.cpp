@@ -97,7 +97,7 @@ static const char ADMIN_INFO_COMMAND[]          = "info";
 
 static const char UPLOAD_ID_ARG[]               = "upload_id";
 
-static const char PAGE_CONTENT_TYPE[]           = "text/html; charset=EUC-JP";
+static const char PAGE_CONTENT_TYPE[]           = "text/html; charset=UTF-8";
 
 UploadItem::CompareFunc get_sort_func(const char *sort_type)
 {
@@ -126,7 +126,7 @@ static int redirect(typename Response::Handle *r, typename Response::Writer& o,
     Response::set_content_type(r, PAGE_CONTENT_TYPE);
     Response::header_end(r);
 
-    o.write("<?xml version=\"1.0\" encoding=\"EUC-JP\"?>\n");
+    o.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
     o.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" "
              "\"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n");
     o.write("<html xmlns=\"http://www.w3.org/1999/xhtml\" "

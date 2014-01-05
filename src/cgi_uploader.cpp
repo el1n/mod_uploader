@@ -117,7 +117,7 @@ int main(int argc, const char * const *argv)
     } catch(const char *message) {
         // できれば Internal Server Error にしたいけど，問い合わせが多
         // くなりそうなので...
-        std::cout << "Content-type: text/html; charset=EUC_JP\r\n\r\n";
+        std::cout << "Content-type: text/html; charset=UTF-8\r\n\r\n";
         std::cout << "Fatal Error: " << message << std::endl;
 
         if (config != NULL) {

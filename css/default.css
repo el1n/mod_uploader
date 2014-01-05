@@ -224,7 +224,7 @@ div.description
 #progress_info
 {
   font-size           : 120%;
-  color               : #003300;
+  color               : #ff7788;
 }
 
 div.bar_graph
@@ -285,7 +285,7 @@ hr.footer
 div.package_info
 {
   font-weight         : bold;
-  color               : #333399;
+  color               : #ff7788;
 
   text-align          : right;
   margin              : 0em   0em 0.1em   0em;
@@ -294,7 +294,7 @@ div.package_info
 div.footer
 {
   font-family         : "Century Gothic", sans-serif;
-  color               : #333333;
+  color               : #ff7788;
 
   text-align          : right;
   margin              : 0em   0em 0.1em   0em;

@@ -986,7 +986,7 @@ static int download_prep(typename Response::Handle *r, UploaderConfig *config,
     return redirect<Response>
         (r, o,
          apr_pstrcat
-         (r->pool, config->base_url, ARG_SEPARATE_STR,
+         (r->pool, config->base_url,
           command, ARG_SEPARATE_STR,
           apr_psprintf(r->pool, "%" APR_SIZE_T_FMT, uitem->get_id()),
           ARG_SEPARATE_STR, "attach", ARG_SEPARATE_STR,

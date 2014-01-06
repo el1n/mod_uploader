@@ -357,14 +357,13 @@ AC_SUBST(DEBUG)
 # 出力
 AC_CONFIG_FILES([
     conf/apache.conf conf/en/apache.conf conf/cgi.apache.conf conf/cgi.conf \
-    conf/stand.conf test/conf/sample.conf \
+    conf/stand.conf \
     GNUmakefile GNUmakefile.apache GNUmakefile.dist \
     src/GNUmakefile.dep src/GNUmakefile.arg src/GNUmakefile.tst \
     src/GNUmakefile.cln src/GNUmakefile src/GNUmakefile.win32 \
     include/MultipartMessageParser.h include/RFC1867Parser.h \
     include/Base64FileWriter.h \
     include/ZipFileWriter.h src/ZipFileWriter.cpp \
-    doc/GNUmakefile doc/doxygen.conf
     tmpl/index.htm tmpl/index_swf.htm tmpl/info.htm tmpl/progress.htm \
     tmpl/download.htm tmpl/thumbnail.htm tmpl/admin.htm tmpl/error.htm \
     tmpl/en/index.htm tmpl/en/info.htm tmpl/en/progress.htm tmpl/en/download.htm \

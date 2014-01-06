@@ -1,39 +1,39 @@
-/* include/mod_uploader_config.h.in.  Generated from configure.ac by autoheader.  */
+/* include/mod_uploader_config.h.in.  Generated from configure.in by autoheader.  */
 
-/* е╡еде║д╬├▒░╠д╬╔╜╡н(Byte)бе */
+/* уВ╡уВдуВ║уБохНШф╜НуБошбишиШ(Byte)я╝О */
 #undef BYTE_UNIT
 
-/* бе */
+/* я╝О */
 #undef DEFAULT_FILE_SIZE_LIMIT
 
-/* бе */
+/* я╝О */
 #undef DEFAULT_PER_PAGE_ITEM_NUMBER
 
-/* бе */
+/* я╝О */
 #undef DEFAULT_TOTAL_FILE_NUMBER_LIMIT
 
-/* бе */
+/* я╝О */
 #undef DEFAULT_TOTAL_FILE_SIZE_LIMIT
 
-/* е└ежеєеэб╝е╔е╗е├е╖ечеєд╬╣ч╖╫д╬║╟┬ч┐Їбе */
+/* уГАуВжуГ│уГнуГ╝уГЙуВ╗уГГуВ╖уГзуГ│уБохРИшиИуБоцЬАхдзцХ░я╝О */
 #undef DLD_MAX_SESSION_COUNT
 
-/* 1 IP ┼Ўдъд╬е└ежеєеэб╝е╔е╗е├е╖ечеєд╬║╟┬ч┐Їбе */
+/* 1 IP х╜УуВКуБоуГАуВжуГ│уГнуГ╝уГЙуВ╗уГГуВ╖уГзуГ│уБоцЬАхдзцХ░я╝О */
 #undef DLD_MAX_SESSION_COUNT_PER_IP
 
-/* ╢їд╬е│есеєе╚дЄ╝їд▒╔╒д▒дыдлд╔дждлбе */
+/* чй║уБоуВ│уГбуГ│уГИуВТхПЧуБСф╗ШуБСуВЛуБЛуБйуБЖуБЛя╝О */
 #undef EMPTY_COMMENT
 
-/* ╢їд╬е╤е╣еяб╝е╔д╦дшды║я╜№дЄ╝їд▒╔╒д▒дыдлд╔дждлбе */
+/* чй║уБоуГСуВ╣уГпуГ╝уГЙуБлуВИуВЛхЙКщЩдуВТхПЧуБСф╗ШуБСуВЛуБЛуБйуБЖуБЛя╝О */
 #undef EMPTY_PASSWORD
 
-/* ╞░║ю╗■д╬е╞еєе╫еьб╝е╚е┴езе├епдЄ╣╘дждлд╔дждлбе */
+/* хЛХф╜ЬцЩВуБоуГЖуГ│уГЧуГмуГ╝уГИуГБуВзуГГуВпуВТшбМуБЖуБЛуБйуБЖуБЛя╝О */
 #undef FASTEST
 
-/* е╡еде║д╬├▒░╠д╬╔╜╡н(GByte)бе */
+/* уВ╡уВдуВ║уБохНШф╜НуБошбишиШ(GByte)я╝О */
 #undef GBYTE_UNIT
 
-/* GCC Atomic Builts дм╗╚дидыдлд╔дждлбе */
+/* GCC Atomic Builts уБМф╜┐уБИуВЛуБЛуБйуБЖуБЛя╝О */
 #undef GCC_ATOMIC_BUILTINS
 
 /* Define to 1 if you have the <ctype.h> header file. */
@@ -162,61 +162,64 @@
 /* Define to 1 if you have the `wait' function. */
 #undef HAVE_WAIT
 
-/* PATH_INFO д╬║╟┬ч─╣бе */
+/* PATH_INFO уБоцЬАхдзщХ╖я╝О */
 #undef HDL_MAX_PATH_INFO_SIZE
 
-/* iconv д╬┬ш╞є░·┐Їд╬╖┐ */
+/* iconv уБочммф║Мх╝ХцХ░уБохЮЛ */
 #undef ICONV_2ND_ARG_TYPE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬┼ъ╣╞╞№╗■д╬е╒ейб╝е▐е├е╚ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоцКХчи┐цЧецЩВуБоуГХуВйуГ╝уГЮуГГуГИ */
 #undef ITM_DATE_FORMAT
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬е│есеєе╚д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоуВ│уГбуГ│уГИуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_COMMENT_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬┼ъ╣╞╞№╗■д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоцКХчи┐цЧецЩВуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_DATE_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬е└ежеєеэб╝е╔е╤е╣еяб╝е╔д╬║╟┬ч─╣ */
+/* 
+   уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоуГАуВжуГ│уГнуГ╝уГЙуГСуВ╣уГпуГ╝уГЙуБоцЬАхдзщХ╖
+   */
 #undef ITM_MAX_DOWNLOAD_PASS_SIZE
 
-/* еве├е╫еэб╝е╔е╒ебедеыд╬ MD5 ├═д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуГХуВбуВдуГлуБо MD5 хАдуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_FILE_DIGEST_SIZE
 
-/* еве├е╫еэб╝е╔е╒ебедеыд╬│╚─е╗╥д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуГХуВбуВдуГлуБоцЛбх╝╡хнРуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_FILE_EXT_SIZE
 
-/* еве├е╫еэб╝е╔е╒ебедеыд╬ MIME е┐еде╫д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуГХуВбуВдуГлуБо MIME уВ┐уВдуГЧуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_FILE_MIME_SIZE
 
-/* еве├е╫еэб╝е╔е╒ебедеыд╬╠╛┴░д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуГХуВбуВдуГлуБохРНхЙНуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_FILE_NAME_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬╝▒╩╠╗╥д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБошнШхИехнРуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_IDENTIFIER_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬┼ъ╣╞╝╘д╬ IP еве╔еье╣д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоцКХчи┐шАЕуБо IP уВвуГЙуГмуВ╣уБоцЬАхдзщХ╖
+   */
 #undef ITM_MAX_IP_ADDRESS_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬║я╜№е╤е╣еяб╝е╔д╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБохЙКщЩдуГСуВ╣уГпуГ╝уГЙуБоцЬАхдзщХ╖ */
 #undef ITM_MAX_REMOVE_PASS_SIZE
 
-/* еве├е╫еэб╝е╔еведе╞ерд╬е╨б╝е╕ечеєд╬║╟┬ч─╣ */
+/* уВвуГГуГЧуГнуГ╝уГЙуВвуВдуГЖуГауБоуГРуГ╝уВ╕уГзуГ│уБоцЬАхдзщХ╖ */
 #undef ITM_MAX_VERSION_SIZE
 
-/* е╡еде║д╬├▒░╠д╬╔╜╡н(KByte)бе */
+/* уВ╡уВдуВ║уБохНШф╜НуБошбишиШ(KByte)я╝О */
 #undef KBYTE_UNIT
 
-/* еэе├епдЄе┐едеревеже╚д╦д╣дыд▐д╟д╬╗■┤╓(╔├) */
+/* уГнуГГуВпуВТуВ┐уВдуГауВвуВжуГИуБлуБЩуВЛуБ╛уБзуБоцЩВщЦУ(чзТ) */
 #undef LCK_TIMEOUT_SEC
 
-/* е╡ере═едеыдЄ║ю└од╣дыдлд╔дждлбе */
+/* уВ╡уГауГНуВдуГлуВТф╜ЬцИРуБЩуВЛуБЛуБйуБЖуБЛя╝О */
 #undef MAKE_THUMBNAIL
 
-/* е╡еде║д╬├▒░╠д╬╔╜╡н(MByte)бе */
+/* уВ╡уВдуВ║уБохНШф╜НуБошбишиШ(MByte)я╝О */
 #undef MBYTE_UNIT
 
-/* е└ежеєеэб╝е╔╗■д╬е╒ебедеы╠╛д╬└▄╞м╝нбе */
+/* уГАуВжуГ│уГнуГ╝уГЙцЩВуБоуГХуВбуВдуГлхРНуБоцОещанш╛Юя╝О */
 #undef NUMNAME
 
 /* Define to the address where bug reports for this package should be sent. */
@@ -234,84 +237,75 @@
 /* Define to the version of this package. */
 #undef PACKAGE_VERSION
 
-/* ╧в┬│┼ъ╣╞дЄ└й╕цд╣дыд╬д╦╗╚дже╨е├е╒ебд╬е╡еде║ */
+/* щАгч╢ЪцКХчи┐уВТхИ╢х╛буБЩуВЛуБоуБлф╜┐уБЖуГРуГГуГХуВбуБоуВ╡уВдуВ║ */
 #undef PST_FLOW_CONTROL_BUFFER_SIZE
 
-/* ║╞┼ъ╣╞▓─╟╜д╦д╩дыд▐д╟д╬╗■┤╓(╔├) */
+/* хЖНцКХчи┐хПпшГ╜уБлуБкуВЛуБ╛уБзуБоцЩВщЦУ(чзТ) */
 #undef PST_INTERVAL_SEC
 
-/* ┼ъ╣╞д╣ды╣р╠▄д╬║╟┬ч┐Ї */
+/* цКХчи┐уБЩуВЛщаЕчЫоуБоцЬАхдзцХ░ */
 #undef PST_MAX_ITEM_COUNT
 
-/* еъепеие╣е╚д╬┐╩─╜╛Ё╩єдЄ╩▌╗¤д╣ды╗■┤╓(╔├) */
+/* уГкуВпуВиуВ╣уГИуБощА▓цНЧцГЕха▒уВТф┐ЭцМБуБЩуВЛцЩВщЦУ(чзТ) */
 #undef PST_PROGRESS_HOLD_SEC
 
-/* евепе╗е╣дм╠╡дде╒ебедеыдлдщ└шд╦║я╜№д╣дыдлд╔дждлбе */
+/* уВвуВпуВ╗уВ╣уБМчДбуБДуГХуВбуВдуГлуБЛуВЙхЕИуБлхЙКщЩдуБЩуВЛуБЛуБйуБЖуБЛя╝О */
 #undef REMOVE_UNPOPULAR
 
-/* ┼ъ╣╞е╟б╝е┐д╬╞╔д▀╜╨д╖д╦╗╚дже╓еэе├епе╡еде║ (Byte) */
+/* цКХчи┐уГЗуГ╝уВ┐уБошкнуБ┐хЗ║уБЧуБлф╜┐уБЖуГЦуГнуГГуВпуВ╡уВдуВ║ (Byte) */
 #undef REQ_READ_BLOCK_SIZE
 
-/* ┼ъ╣╞е╟б╝е┐д╬╞╔д▀╜╨д╖е┐едеревеже╚╗■┤╓(╔├) */
+/* цКХчи┐уГЗуГ╝уВ┐уБошкнуБ┐хЗ║уБЧуВ┐уВдуГауВвуВжуГИцЩВщЦУ(чзТ) */
 #undef REQ_READ_TIMEOUT_SEC
 
-/* ╜╨╬╧═╤ iovec д╬е╡еде║ */
+/* хЗ║хКЫчФи iovec уБоуВ╡уВдуВ║ */
 #undef RES_IO_VECTOR_SIZE
 
 /* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS
 
-/* е╟б╝е┐д╬╩╕╗·е│б╝е╔ */
+/* уГЗуГ╝уВ┐уБоцЦЗхнЧуВ│уГ╝уГЙ */
 #undef SYS_CHARACTER_CODE
 
-/* MMAP д╣ды├▒░╠ (Byte) */
+/* MMAP уБЩуВЛхНШф╜Н (Byte) */
 #undef SYS_MMAP_BLOCK_SIZE
 
-/* е┌б╝е╕е╡еде║ (KB) */
+/* уГЪуГ╝уВ╕уВ╡уВдуВ║ (KB) */
 #undef SYS_PAGE_SIZE
 
-/* └д│ж╔╕╜р╗■длдщд╬еке╒е╗е├е╚╔╜╡н */
+/* ф╕ЦчХМциЩц║ЦцЩВуБЛуВЙуБоуВкуГХуВ╗уГГуГИшбишиШ */
 #undef SYS_TIMEZONE_OFFSET
 
-/* └д│ж╔╕╜р╗■длдщд╬еке╒е╗е├е╚╔╜╡н */
+/* ф╕ЦчХМциЩц║ЦцЩВуБЛуВЙуБоуВкуГХуВ╗уГГуГИшбишиШ */
 #undef SYS_TIMEZONE_OFFSET_SUFFIX
 
-/* е╚б╝епеєд╬е╟е╒ейеые╚┐Їбе */
+/* уГИуГ╝уВпуГ│уБоуГЗуГХуВйуГлуГИцХ░я╝О */
 #undef TPL_DEFAULT_TOKEN_POOL_COUNT
 
-/* е╒ебедеыдЄ░╡╜╠д╣дыдлд╔дждлбе */
+/* уГХуВбуВдуГлуВТхЬзч╕оуБЩуВЛуБЛуБйуБЖуБЛя╝О */
 #undef USE_GZIP
 
-/* е╒ебедеыенеуе├е╖ехд╬д╬═н╕·╗■┤╓ */
+/* уГХуВбуВдуГлуВнуГгуГГуВ╖уГеуБоуБоцЬЙхК╣цЩВщЦУ */
 #undef VIW_EXPIRES
 
-/* е╡ере═едеы▓ш┴№д╬╖┴╝░ */
+/* уВ╡уГауГНуВдуГлчФ╗хГПуБох╜вх╝П */
 #undef VIW_THUMBNAIL_EXT
 
-/* е╡ере═едеы▓ш┴№д╬║╟┬ч╜─е╡еде║ */
+/* уВ╡уГауГНуВдуГлчФ╗хГПуБоцЬАхдзч╕жуВ╡уВдуВ║ */
 #undef VIW_THUMBNAIL_HEIGHT_LIMIT
 
-/* е╡ере═едеы▓ш┴№д╬║ю└одЄ╗юд▀ды║╟┬че╒ебедеые╡еде║ (Byte) */
+/* уВ╡уГауГНуВдуГлчФ╗хГПуБоф╜ЬцИРуВТшйжуБ┐уВЛцЬАхдзуГХуВбуВдуГлуВ╡уВдуВ║
+   (Byte) */
 #undef VIW_THUMBNAIL_SIZE_LIMIT
 
-/* е╡ере═едеы▓ш┴№д╬╠╛┴░д╬└▄╚°╝н */
+/* уВ╡уГауГНуВдуГлчФ╗хГПуБохРНхЙНуБоцОех░╛ш╛Ю */
 #undef VIW_THUMBNAIL_SUFFIX
 
-/* е╡ере═едеы▓ш┴№д╬║╟┬ч▓ге╡еде║ */
+/* уВ╡уГауГНуВдуГлчФ╗хГПуБоцЬАхдзцикуВ╡уВдуВ║ */
 #undef VIW_THUMBNAIL_WIDTH_LIMIT
 
-/* ZIP ░╡╜╠д╬е╨е├е╒ебе╡еде║ (Byte) */
+/* ZIP хЬзч╕оуБоуГРуГГуГХуВбуВ╡уВдуВ║ (Byte) */
 #undef ZIP_BUFFER_SIZE
-
-/* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
-   <pthread.h>, or <semaphore.h> is not used. If the typedef was allowed, the
-   #define below would cause a syntax error. */
-#undef _UINT32_T
-
-/* Define for Solaris 2.5.1 so the uint8_t typedef from <sys/synch.h>,
-   <pthread.h>, or <semaphore.h> is not used. If the typedef was allowed, the
-   #define below would cause a syntax error. */
-#undef _UINT8_T
 
 /* Define to empty if `const' does not conform to ANSI C. */
 #undef const
@@ -324,18 +318,6 @@
 
 /* Define to `unsigned int' if <sys/types.h> does not define. */
 #undef size_t
-
-/* Define to the type of an unsigned integer type of width exactly 16 bits if
-   such a type exists and the standard includes do not define it. */
-#undef uint16_t
-
-/* Define to the type of an unsigned integer type of width exactly 32 bits if
-   such a type exists and the standard includes do not define it. */
-#undef uint32_t
-
-/* Define to the type of an unsigned integer type of width exactly 8 bits if
-   such a type exists and the standard includes do not define it. */
-#undef uint8_t
 
 /* Define to empty if the keyword `volatile' does not work. Warning: valid
    code using `volatile' can become incorrect without. Disable with care. */

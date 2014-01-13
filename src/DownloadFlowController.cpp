@@ -145,9 +145,9 @@ DownloadSession::DownloadSession(DownloadFlowController *flow_controller,
 {
     is_valid_ = flow_controller_->add_session(sockaddr_);
 
-    if (!is_valid_) {
-        apr_sleep(apr_time_from_sec(DOWNLOAD_BUSY_SLEEP_SEC));
-    }
+    //if (!is_valid_) {
+    //    apr_sleep(apr_time_from_sec(DOWNLOAD_BUSY_SLEEP_SEC));
+    //}
 }
 
 DownloadSession::~DownloadSession()

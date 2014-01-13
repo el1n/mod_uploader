@@ -218,7 +218,7 @@ AC_DEFINE(MBYTE_UNIT,                   "MB",   [サイズの単位の表記(MBy
 AC_DEFINE(GBYTE_UNIT,                   "GB",   [サイズの単位の表記(GByte)．])
 
 AC_DEFINE(DLD_MAX_SESSION_COUNT,        128,    [ダウンロードセッションの合計の最大数．])
-AC_DEFINE(DLD_MAX_SESSION_COUNT_PER_IP, 3,      [1 IP 当りのダウンロードセッションの最大数．])
+AC_DEFINE(DLD_MAX_SESSION_COUNT_PER_IP, 2,      [1 IP 当りのダウンロードセッションの最大数．])
 
 AC_DEFINE(DEFAULT_PER_PAGE_ITEM_NUMBER, 	30,   							[．])
 AC_DEFINE(DEFAULT_TOTAL_FILE_SIZE_LIMIT, 	1024LL*1024LL*1024LL*1024LL, 	[．])

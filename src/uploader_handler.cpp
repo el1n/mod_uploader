@@ -1065,7 +1065,7 @@ static int download(typename Response::Handle *r, UploaderConfig *config,
              Response::get_remote_addr(r));
         if (!is_admin_mode && !download_session.is_valid()) {
             //THROW(MESSAGE_DOWNLOAD_SESSION_LIMIT_EXCEEDED);
-            return HTTP_SERVICE_UNAVAILABLE;
+            return HTTP_FORBIDDEN;
         }
 
         item_file = config->get_item_manager()
